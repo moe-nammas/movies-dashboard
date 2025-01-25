@@ -1,4 +1,3 @@
-
 # Movie Database Application
 
 
@@ -17,20 +16,7 @@ Utilizes React Router for client-side routing
 Employs SCSS for styling and layout
 Uses React Icons for icon components
 Includes a custom hook for managing movie data and filters
-Getting Started
-Installation
-Clone the repository: git clone https://github.com/moe-nammas/movies-dashbaord.git
-Install dependencies: npm install or yarn install
-Start the development server: npm run dev or yarn dev
-Accessing the Application
-Open a web browser and navigate to http://localhost:3000 to access the application.
 
-Building and Serving the Application
-Build the application: npm run build or yarn build
-Serve the production build: npm run serve or yarn serve
-Troubleshooting
-If you encounter issues with dependencies, try running npm install or yarn install again.
-If the application fails to start, check the console for error messages and address any issues accordingly.
 Contributing
 Fork the repository and create a new branch for your feature or bug fix.
 Make changes and commit them with a descriptive commit message.
@@ -45,4 +31,37 @@ Vite: ^6.0.5
 TypeScript: ~5.6.2
 SCSS: ^1.83.4
 React Icons: ^5.4.0
+
+
+## Installation
+
+clone project
+
+```bash
+  git clone git@github.com:moe-nammas/movies-dashboard.git
+```
+
+cd into project folder
+```bash
+  cd movies-dashboard
+```
+
+ install dependencies
+```bash
+  npm i
+```
+
+ run project
+```bash
+  npm run dev
+```
+
+open browser and navigate to
+```bash
+  http://localhost:3000
+```
+
+## Authors
+
+- [@moe-nammas](https://github.com/moe-nammas)
 

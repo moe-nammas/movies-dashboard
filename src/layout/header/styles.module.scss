@@ -1,0 +1,54 @@
+@use '../../styles/variables' as global;
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: global.$cards-bg-color;
+  color: white;
+  border-radius: global.$border-radius;
+  padding: 1rem;
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    filter: brightness(50%);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+.user-card-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  .user-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+
+    .score-container {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}

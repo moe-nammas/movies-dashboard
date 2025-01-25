@@ -1,0 +1,42 @@
+@use '../../../../../styles/variables' as global;
+
+.action-btns-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .action-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 7px 1rem;
+    border: 1px solid white;
+    color: white;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .success {
+    border: 1px solid global.$success-badge-bg-color;
+    color: global.$success-badge-text-color;
+  }
+
+  .danger {
+    border: 1px solid global.$danger-badge-bg-color;
+    color: global.$danger-badge-text-color;
+  }
+
+  .warning {
+    border: 1px solid global.$warning-badge-bg-color;
+    color: global.$warning-badge-text-color;
+  }
+}
+
+div.action-btns-container {
+  border-top: 2px solid global.$main-bg-color;
+  padding-top: 10px;
+}

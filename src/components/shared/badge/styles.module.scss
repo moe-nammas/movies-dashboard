@@ -1,0 +1,19 @@
+.badge {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #114653;
+  color: #17e99d;
+}
+
+.danger {
+  background-color: #571345;
+  color: #fb3772;
+}
+
+.default {
+  border: 2px solid #281a48;
+}

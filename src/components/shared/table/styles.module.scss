@@ -1,0 +1,11 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .no-data-available {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

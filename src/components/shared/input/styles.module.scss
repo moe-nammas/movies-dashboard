@@ -1,0 +1,38 @@
+@use '../../../styles/variables' as global;
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  label {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  input {
+    background-color: global.$main-bg-color;
+    border: 2px solid global.$main-bg-color;
+    padding: 10px;
+    border-radius: 4px;
+    caret-color: white;
+    color: white;
+
+    &:focus {
+      outline: none;
+      border: 2px solid global.$primary-color;
+    }
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #564d7e;
+  }
+}

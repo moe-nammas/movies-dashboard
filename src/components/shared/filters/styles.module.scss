@@ -1,0 +1,16 @@
+@use '../../../styles/variables' as global;
+
+.filters-container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  border-bottom: 1px solid global.$main-bg-color;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,26 @@
+@use '../../../../../styles/variables' as global;
+
+.table-wrapper {
+  border-collapse: collapse;
+
+  .table-header-row {
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 3px solid #1e113d;
+    th {
+      padding-bottom: 1rem;
+    }
+  }
+
+  .table-data-row {
+    text-align: left;
+    border-bottom: 2px solid #1e113d;
+    td {
+      padding-block: 1rem;
+    }
+
+    &:hover {
+      background-color: #1e0647;
+    }
+  }
+}

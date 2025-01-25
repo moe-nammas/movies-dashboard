@@ -1,0 +1,19 @@
+@use '../../../styles/variables' as global;
+
+.button {
+  background-color: global.$primary-color;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 1rem;
+  border-radius: 6px;
+
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
