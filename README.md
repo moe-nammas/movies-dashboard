@@ -3,25 +3,28 @@
 
 A React-based web application that displays a database of movies, allowing users to filter and search through the data.
 
-Features:
-Displays a list of movies with their respective details
-Allows users to filter movies by genre, country, and decade
-Enables text search for specific movie titles or details
-Provides statistics on the most Oscar-winning and losing movies
-Displays the highest rated movies
-Technical Details
-Built using React, TypeScript, and Vite
-Utilizes React Router for client-side routing
-Employs SCSS for styling and layout
-Uses React Icons for icon components
-Includes a custom hook for managing movie data and filters
+#### I Decided not utilize any external library for any state management or any UI Component to reduce the bundle size and i saw no need for any external state management library or any UI library
 
-Contributing
-Fork the repository and create a new branch for your feature or bug fix.
-Make changes and commit them with a descriptive commit message.
-Open a pull request to merge your changes into the main branch.
-License
-This project is licensed under the MIT License.
+#### Benefits of Building Without External Libraries:
+
+- Deep Understanding
+- Forces you to comprehend core React mechanics
+- Develops fundamental JavaScript and React skills
+- Improves problem-solving capabilities by implementing solutions manually
+- No unnecessary library overhead
+- Complete control over bundle size
+- Precise performance tuning
+- Eliminates dependency on third-party code
+
+#### When to Consider External Libraries:
+- Project Complexity
+- Large-scale applications with complex state management
+- Need for rapid development
+- Standardized UI/UX requirements
+- Team Productivity
+- Consistent design systems
+- Reduced boilerplate code
+- Established patterns and best practices
 
 Dependencies:
 React: ^18.3.1
@@ -71,6 +74,12 @@ open browser and navigate to
 - "sass": "^1.83.4"
 
 ## Authors
-
 - [@moe-nammas](https://github.com/moe-nammas)
+
+Contributing
+Fork the repository and create a new branch for your feature or bug fix.
+Make changes and commit them with a descriptive commit message.
+Open a pull request to merge your changes into the main branch.
+License
+This project is licensed under the MIT License.
 
