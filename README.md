@@ -1,10 +1,9 @@
 # Movie Database Application
 
 
-Project Description
 A React-based web application that displays a database of movies, allowing users to filter and search through the data.
 
-Features
+Features:
 Displays a list of movies with their respective details
 Allows users to filter movies by genre, country, and decade
 Enables text search for specific movie titles or details
@@ -24,7 +23,7 @@ Open a pull request to merge your changes into the main branch.
 License
 This project is licensed under the MIT License.
 
-Dependencies
+Dependencies:
 React: ^18.3.1
 React Router: ^7.1.3
 Vite: ^6.0.5
@@ -60,6 +59,16 @@ open browser and navigate to
 ```bash
   http://localhost:3000
 ```
+
+## Dependencies
+- "axios": "^1.7.9",
+- "path": "^0.12.7",
+- "react": "^18.3.1",
+- "react-dom": "^18.3.1",
+- "react-icons": "^5.4.0",
+- "react-router-dom": "^7.1.3",
+- "recharts": "^2.15.0",
+- "sass": "^1.83.4"
 
 ## Authors
 
